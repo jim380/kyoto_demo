@@ -1,0 +1,10 @@
+github.com/kyoto-framework/kyoto v0.3.1-0.20220501105523-87c78018253e h1:Z0NSVK9v49QVaCeavMPkQZ342yMIDru7QUTpEBoleEs=
+github.com/kyoto-framework/kyoto v0.3.1-0.20220501105523-87c78018253e/go.mod h1:46zKqp4ebbDsJTDyNQZ1HM1wxPDaa5BiwEJal4jcL14=
+github.com/kyoto-framework/scheduler v0.0.0-20220419050632-472087dddf82 h1:sZINjY6oWd08aWumw1w70j0sK29wfA3eaJU7qm0JKm4=
+github.com/kyoto-framework/scheduler v0.0.0-20220419050632-472087dddf82/go.mod h1:U+m/me78tC4AFEw3UAwE/UzP95+sOJUBznpH4s6SXYE=
+github.com/kyoto-framework/zen v0.0.0-20220418065731-a871e34f2f62 h1:cvwrCnESCrWevkULCYZO1i3ElCuCPH1UyzVEZ2NVqjs=
+github.com/kyoto-framework/zen v0.0.0-20220418065731-a871e34f2f62/go.mod h1:MLXuSpmhQdT6PSqYQHcNPUBEfSGbMggeJKICBmMZfq4=
+golang.org/x/exp v0.0.0-20220328175248-053ad81199eb h1:pC9Okm6BVmxEw76PUu0XUbOTQ92JX11hfvqTjAV3qxM=
+golang.org/x/exp v0.0.0-20220328175248-053ad81199eb/go.mod h1:lgLbSvA5ygNOMpwM/9anMpWVlVJ7Z+cHWq/eFuinpGE=
+golang.org/x/text v0.3.7 h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=
+golang.org/x/text v0.3.7/go.mod h1:u+2+/6zg+i71rQMx5EYifcz6MCKuco9NR6JIITiCfzQ=
