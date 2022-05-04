@@ -6,6 +6,7 @@ import (
 	"os"
 
 	page_index "github.com/jim380/kyoto-demo/pages/index"
+	page_test "github.com/jim380/kyoto-demo/pages/test"
 	"github.com/kyoto-framework/kyoto/render"
 )
 
@@ -15,6 +16,7 @@ func main() {
 
 	// Routes
 	mux.HandleFunc("/", render.PageHandler(page_index.PageIndex))
+	mux.HandleFunc("/test", render.PageHandler(page_test.PageTest))
 
 	// Run
 	if os.Getenv("PORT") == "" {

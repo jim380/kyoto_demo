@@ -8,6 +8,7 @@ import (
 	"github.com/kyoto-framework/kyoto/render"
 
 	page_index_components "github.com/jim380/kyoto-demo/pages/index/components"
+	"github.com/jim380/kyoto-demo/utils"
 )
 
 func PageIndex(core *kyoto.Core) {
@@ -16,11 +17,7 @@ func PageIndex(core *kyoto.Core) {
 		core.Component("UUID2", page_index_components.ComponentUUID)
 	})
 	render.Template(core, func() *template.Template {
-		t := newtemplate(core, "page.index.html", "pages/index/*.html")
+		t := utils.Newtemplate(core, "page.index.html", "pages/index/*.html")
 		return template.Must(t.ParseGlob("pages/index/components/*.html"))
 	})
-}
-
-func newtemplate(core *kyoto.Core, page, path string) *template.Template {
-	return template.Must(template.New(page).Funcs(render.FuncMap(core)).ParseGlob(path))
 }
